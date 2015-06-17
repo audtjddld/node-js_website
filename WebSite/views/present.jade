@@ -1,6 +1,22 @@
 extends layout
 
 block content
+
+   section
+    form.move
+     fieldset
+      legend Anchor Links
+      p
+       a(href='#pinContainer') 상위 슬라이드
+      p
+       a(href='#trigger1') CSS 토글
+      p
+       a(href='#trigger2') box 색변환
+      p
+       a(href='#triggerPin') Pin/Unpin
+      p
+       a(href='#trigger3') box 움직이기
+
    #pinContainer
      section.panel.blue
        b ONE
@@ -15,22 +31,28 @@ block content
     
     
     #trigger1
-     #animateArea
+     #animateArea1.animateArea
       #animate1.box1.red
        p.
          Zap
 
-    #spacerArea    
+   .spacerArea    
     
     #trigger2
-     #animateArea
+     #animateArea2.animateArea
       #animate2.box1.green
        p.
         This is a grey area
     
     #triggerPin
-     #animateAra
+     #animateAra3.animateArea
       #pin.box1
        p
        img(src='/images/7.gif',alt='움짤')
-    
+       
+   .spacerArea
+   
+    #trigger3
+
+      #animate3.box1.red
+       p Let's draw!    
