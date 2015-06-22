@@ -2,19 +2,21 @@ extends layout
 
 block content
 
+ div.paceDiv
+
    section
     form.move
      fieldset
       legend Anchor Links
-      p
+      p#menu1
        a(href='#pinContainer') 상위 슬라이드
-      p
+      p#menu2
        a(href='#trigger1') CSS 토글
-      p
+      p#menu3
        a(href='#trigger2') box 색변환
-      p
+      p#menu4
        a(href='#triggerPin') Pin/Unpin
-      p
+      p#menu5
        a(href='#trigger3') box 움직이기
 
    #pinContainer
@@ -56,3 +58,4 @@ block content
 
       #animate3.box1.red
        p Let's draw!    
+       
