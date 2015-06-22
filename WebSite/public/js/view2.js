@@ -21,4 +21,19 @@ $(function(){
 					.addIndicators()
 					.addTo(controller);
 	
+	new ScrollMagic.Scene({triggerElement: "#parallax4"})
+					.setTween("#parallax3 > div", {y: "80%", ease: Linear.easeNone})
+					.addIndicators()
+					.addTo(controller);	
+
+	new ScrollMagic.Scene({triggerElement: "#parallax5"})
+					.setTween("#parallax3 > div", {y: "80%", ease: Linear.easeNone})
+					.addIndicators()
+					.addTo(controller);	
+	
+	new ScrollMagic.Scene({triggerElement: "#parallax6"})
+					.setTween("#parallax3 > div", {y: "80%", ease: Linear.easeNone})
+					.addIndicators()
+					.addTo(controller);		
+	
 })
