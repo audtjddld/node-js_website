@@ -14,3 +14,7 @@ exports.present = function(req, res){
 exports.present2 = function(req, res){
 	  res.render('present2', { title: 'Present Site', viewNum :'2' });
 };
+
+exports.scroll = function (req, res){
+	 res.render("scroll",{title:"프리젠테이션 사이트"});
+}
