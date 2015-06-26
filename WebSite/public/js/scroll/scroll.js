@@ -16,7 +16,7 @@
 			    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C','#e8e8e8'],	// 배경셋 셋팅
 			    navigation: {
 			    	// 네비게이션 위치 및 툴팁 부분 문구를 배열로 넣을 수 있따.
-			    	'position': 'left',
+			    	'position': 'right',
 			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4','Page 5']
 			   	},
 			    afterRender: function(){
