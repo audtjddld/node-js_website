@@ -32,5 +32,5 @@ app.get('/presentation2', routes.present2);
 app.get('/scroll', routes.scroll);
 
 http.createServer(app).listen(8082, function(){
-  console.log('Express server listening on port ' + app.get('port'));
+  console.log('Express server listening on port 8082');
 });
