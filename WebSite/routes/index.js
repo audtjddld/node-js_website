@@ -16,5 +16,5 @@ exports.present2 = function(req, res){
 };
 
 exports.scroll = function (req, res){
-	 res.render("scroll",{title:"프리젠테이션 사이트"});
+	 res.render("scroll/scroll",{title:"프리젠테이션 사이트"});
 }
