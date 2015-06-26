@@ -1,6 +1,10 @@
 /**
  * New node file
  */
+
+/**
+ *  Plugin 예제 url : http://alvarotrigo.com/pagePiling/
+ */
 		$(document).ready(function() {
 
 			/*
